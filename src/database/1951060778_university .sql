@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 06, 2022 lúc 08:42 AM
+-- Thời gian đã tạo: Th1 06, 2022 lúc 09:42 AM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 8.1.1
 
@@ -46,9 +46,9 @@ CREATE TABLE `giangvien` (
 INSERT INTO `giangvien` (`magv`, `hovaten`, `ngaysinh`, `gioitinh`, `trinhdo`, `chuyenmon`, `hocham`, `hocvi`, `coquan`) VALUES
 (1, 'Giao vien 1', '2022-01-19', 'Nam', 'Cao', 'CNTT', 'Hoc ham', 'Hoc vi', 'asgasg'),
 (2, 'Ho va ten 2', '2021-12-21', 'Nu', 'Trinh do 1', 'Chuyen mon 2 ', 'Ho vam 2', 'Hoc vi 2', 'Co quan 2'),
-(7, 'Tịnh Thất Bồng Lai', '0000-00-00', 'Nữ', 'Trụ trì', 'abc', 'Cao', 'Thấp', 'Thiền Am Bên Bờ Vũ Trụ'),
-(8, 'Giảng viên', '0000-00-00', 'Nam', 'Thạc sĩ', 'Hóa', 'Học hàm', 'Họ vị', 'Trường Thủy Lợi'),
-(9, 'Phạm Văn Khải', '0000-00-00', 'Nam', 'Đại học', 'CNTT', 'Năm 2', 'Học vị', '61THNB');
+(7, 'Tịnh Thất Bồng Lai', '2001-05-05', 'Nữ', 'Trụ trì', 'abc', 'Cao', 'Thấp', 'Thiền Am Bên Bờ Vũ Trụ'),
+(8, 'Giảng viên', '2022-01-11', 'Nam', 'Thạc sĩ', 'Hóa', 'Học hàm', 'Họ vị', 'Trường Thủy Lợi'),
+(9, 'Phạm Văn Khải', '2021-11-25', 'Nam', 'Đại học', 'CNTT', 'Năm 2', 'Học vị', '61THNB');
 
 --
 -- Chỉ mục cho các bảng đã đổ
