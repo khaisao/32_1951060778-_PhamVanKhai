@@ -19,7 +19,7 @@
     </div>
     <br />
     Ngày sinh :
-    <input type="text" class="form-control" name="ngaysinh" value="" />
+    <input type="date" class="form-control" name="ngaysinh" value="" />
     <br />
     Giới tinh :
     <input type="text" class="form-control" name="gioitinh" value="" />

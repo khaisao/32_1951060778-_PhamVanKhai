@@ -6,7 +6,8 @@ require "header.php";
 
 <div class="container">
     <h1 style="display: flex;align-items: center;justify-content: center;margin-bottom:30px;margin-top:50px; color:blue">Danh sách giảng viên</h1>
-<table border="1" cellspacing="0" cellpadding="15">
+<table class="table" border="1" cellspacing="0" cellpadding="15">
+<thead class="thead-dark">
     <tr>
         <th scope="col">Mã giảng viên</th>
         <th scope="col">Họ và tên</th>
@@ -21,6 +22,7 @@ require "header.php";
         
         
     </tr>
+    </thead>
     <?php if (!empty($giangviens)): ?>
         <?php foreach ($giangviens AS $giangvien) : ?>
             <tr>
@@ -42,7 +44,6 @@ require "header.php";
                     $urlDelete =
                         "index.php?controller=giangvien&action=delete&magv=" . $giangvien['magv'];
                     ?>
-                    <a href="<?php echo $urlDetail?>">Chi tiết</a> &nbsp;
                     <a href="<?php echo $urlEdit?>">Edit</a> &nbsp;
                     <a onclick="return confirm('Bạn chắc chắn muốn xóa?')"
                        href="<?php echo $urlDelete?>">

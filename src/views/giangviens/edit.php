@@ -7,7 +7,7 @@
     <?php echo $error; ?>
 </div>
 <div style = "width:60%" class="container">
-    <h1 style="display: flex;align-items: center;justify-content: center;margin-bottom:30px;margin-top:50px;color:green">Chỉnh sửa thông tin giảng viên</h1>
+    <h1 style="display: flex;align-items: center;justify-content: center;margin-bottom:30px;margin-top:50px;color:blue">Chỉnh sửa thông tin giảng viên</h1>
 <form action="" method="post">
 Họ và tên:
     <input class="form-control" type="text"
@@ -17,7 +17,7 @@ Họ và tên:
     />
     <br />
     Ngày sinh:
-    <input class="form-control" type="text"
+    <input class="form-control" type="date"
            name="ngaysinh"
            value="<?php
            echo isset($_POST['ngaysinh']) ? $_POST['ngaysinh'] : $giangvien['ngaysinh']?>"
@@ -65,6 +65,6 @@ Họ và tên:
            echo isset($_POST['coquan']) ? $_POST['coquan'] : $giangvien['coquan']?>"
     />
     <br />
-    <input type="submit" name="submit" value="Update" />
+    <input style="border:none;   background-color: green;color: white;;padding:10px" type="submit" name="submit" value="Update" />
 </form>
 </div>
