@@ -127,8 +127,7 @@ class giangvienController {
         $giangvien = new giangvien();
         $isDelete = $giangvien->delete($magv);
 
-        if ($isDelete) {
-   
+        if ($isDelete) { 
             $_SESSION['success'] = "Xóa bản ghi #$magv thành công";
             header("Location: index.php?controller=giangvien&action=index");
         }

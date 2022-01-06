@@ -44,10 +44,11 @@ require "header.php";
                     $urlDelete =
                         "index.php?controller=giangvien&action=delete&magv=" . $giangvien['magv'];
                     ?>
-                    <a href="<?php echo $urlEdit?>">Edit</a> &nbsp;
+                    <a href="<?php echo $urlEdit?>"><span class="material-icons-outlined">mode_edit</span></a> &nbsp;
                     <a onclick="return confirm('Bạn chắc chắn muốn xóa?')"
                        href="<?php echo $urlDelete?>">
-                        Xóa
+                       <span class="material-icons-outlined">delete_forever</span>
+
                     </a>
                 </td>
             </tr>
